@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WhatsApp Status Saver</string>
+    <string name="text_label_1">Status</string>
+    <string name="text_label_2">Saved</string>
+    <string name="msg">No Media Found! Please watch whatsapp status first and then come here.
+        </string>
+    <string name="msg2">No Media Found! Please save whatsapp status first and then come here.</string>
+</resources>
