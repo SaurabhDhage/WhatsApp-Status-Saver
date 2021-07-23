@@ -16,8 +16,8 @@
     </style>
     <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">#3A252F</item>
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:navigationBarColor">@color/black</item>

@@ -4,14 +4,14 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "whatsapps.status.saver",
+  "applicationId": "com.status.saver",
   "variantName": "processReleaseResources",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
-      "versionCode": 2,
-      "versionName": "1.1",
+      "versionCode": 1,
+      "versionName": "1.0",
       "outputFile": "app-release.apk"
     }
   ]

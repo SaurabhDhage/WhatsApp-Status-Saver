@@ -2,22 +2,24 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/cardViewImageMedia"
     android:layout_margin="5dp"
-    android:layout_width="150dp"
-    android:layout_height="150dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     android:clickable="true"
-
     app:cardCornerRadius="6dp"
+
     app:cardBackgroundColor="@color/white"
     android:layout_alignParentStart="true"
-    android:layout_alignParentTop="true">
+    android:layout_alignParentTop="true"
+    android:focusable="true">
         <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
             <ImageView
                 android:id="@+id/imageViewImageMedia"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="200dp"
                 android:layout_margin="4dp"
+
                 android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
                 android:layout_weight="1"
@@ -25,14 +27,22 @@
                 android:scaleType="centerCrop"
                 />
 
-            <ImageButton
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:id="@+id/wpshare"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_alignBottom="@id/imageViewImageMedia"
-               android:layout_alignRight="@id/imageViewImageMedia"
-                android:background="@drawable/ic_whatsapp" />
+               android:layout_alignEnd="@id/imageViewImageMedia"
+                app:tint="@color/white"
+                android:src="@drawable/share"
+                />
 
+            <ImageView
+                android:id="@+id/play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_play_button"
+                android:layout_centerInParent="true"/>
         </RelativeLayout>
 
     </androidx.cardview.widget.CardView>

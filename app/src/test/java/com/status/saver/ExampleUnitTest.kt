@@ -1,4 +1,4 @@
-package whatsapps.status.saver
+package com.status.saver
 
 import org.junit.Test
 
